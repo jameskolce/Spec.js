@@ -1,0 +1,40 @@
+{
+  "name": "@jameskolce/spec.js",
+  "version": "0.1.0",
+  "description": "Testing Library for JavaScript/TypeScript using Specification Files",
+  "main": "dist/bin.js",
+  "bin": {
+    "specjs": "dist/bin.js"
+  },
+  "scripts": {
+    "test": "ts-node src/bin.ts tests",
+    "test:file": "ts-node src/bin.ts tests/simple.spec.ts",
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jameskolce/Spec.js.git"
+  },
+  "keywords": [
+    "testing",
+    "typescript",
+    "file-based",
+    "spec",
+    "assertion"
+  ],
+  "author": "James Kolce <contact@jameskolce.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jameskolce/Spec.js/issues"
+  },
+  "homepage": "https://github.com/jameskolce/Spec.js#readme",
+  "devDependencies": {
+    "@types/node": "^10.12.18",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.2.4"
+  },
+  "dependencies": {
+    "@jameskolce/lambda.js": "^0.1.0"
+  }
+}
