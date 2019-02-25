@@ -35,7 +35,7 @@ export default `
 
   Specification Body
 
-  |- <assertion> <assertion description>
+  |- <assertion> <assertion description>.
 `
 ```
 
@@ -44,10 +44,10 @@ First line must will be taken as the specification title for this file, the next
 Assertions have the following structure:
 
 ```
-|- <assertion> <assertion description>
+|- <assertion> <assertion description>.
 ```
 
-Where `assertion` can be any JavaScript expression that evaluates to a boolean value. And `assertion description` can be any short string.
+Where `assertion` can be any JavaScript expression that evaluates to a boolean value. And `assertion description` can be any short string. Assertions **must** end with a period character (.)
 
 The following is an example of a specification file:
 
